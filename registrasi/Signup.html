@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <div class="login">
+        <img src="" alt="">
+        <h2 class="title">Sign up to Database </h2>
+        <button class="sosial">
+            <img src="../Dashboard/icons/google.svg" width="20px" height="20px" alt="google" class="gogel">
+            Sign up with Google
+        </button>
+        
+        <p class="garis"><span>or sign up with email</span></p>
+    <form action="reg.php" method="POST">
+        <div>
+            <label for="id">Id users</label>
+            <input type="number" id="id" name="id" required>
+        </div>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <button type="submit">Sign up</button>
+        </div>
+        <p class="signup"> Have an account? <a href="Signin.html">Sign in</a></p>
+    </form>
+   
+</body>
+</html>
