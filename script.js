@@ -47,3 +47,29 @@ document.addEventListener("DOMContentLoaded", function () {
   // Jalankan fungsi nextTestimonial setiap 5 detik
   setInterval(nextTestimonial, 20000);
 });
+
+
+
+let apartmen = {
+  data: [
+    {
+      apartmenName: "Regular White",
+      category: "Garden Apartment",
+      price: "300",
+      Image: "amba.jpg",
+    },
+
+    {
+      apartmenName: "Balck Gitur",
+      category: "Penthouse Apartment",
+      price: "340",
+      Image: "ambas.jpg",
+    },
+    {
+      apartmenName: "Bicokk Rico",
+      category: "Loft Apartment",
+      price: "400",
+      Image: "ambasa.jpg",
+    },
+  ],
+};

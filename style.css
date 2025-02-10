@@ -710,3 +710,43 @@ footer {
 }
 
 
+.warpper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+#search-container {
+  margin: 1em 0;
+}
+
+#search-container input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5em;
+  width: 40%;
+  font-size: 1em;
+}
+
+#search-container button {
+  padding: 0.7em 2em;
+  margin-left: 1em;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.button-value {
+  border: 2px solid #005eeb;
+  padding: 1em 2.2em;
+  border-radius: 3em;
+  background-color: transparent;
+  color: #0347ac;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #005eeb;
+  color: #ffffff;
+}
+
+
